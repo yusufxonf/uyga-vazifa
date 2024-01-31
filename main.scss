@@ -1,0 +1,923 @@
+.container {
+    max-width: 1440px;
+
+    margin: 0 auto;
+
+    padding: 0px 20px;
+
+    header {
+        position: relative;
+        width: 1440px;
+        height: 72px;
+        //   background-color: aqua;
+
+        .header {
+            width: 285px;
+            color: rgba(51, 51, 51, 0.70);
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            position: absolute;
+
+            top: 17px;
+            left: 193px;
+        }
+
+        .header2 {
+            width: 285px;
+            color: rgba(51, 51, 51, 0.70);
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            cursor: pointer;
+            position: absolute;
+            top: 50px;
+            left: 193px;
+        }
+
+        .header3 {
+            width: 285px;
+            color: rgba(51, 51, 51, 0.70);
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            cursor: pointer;
+            position: absolute;
+            top: 17px;
+            left: 454px;
+
+        }
+
+        .header4 {
+            width: 285px;
+            color: rgba(51, 51, 51, 0.70);
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            cursor: pointer;
+            position: absolute;
+            top: 38px;
+            left: 454px;
+        }
+
+        .soat_img {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            position: absolute;
+            top: 30px;
+            left: 426px;
+        }
+
+        .lak_img {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            cursor: pointer;
+            top: 30px;
+            left: 165px;
+
+        }
+
+        .tel_img {
+            width: 20px;
+            height: 20px;
+
+            position: absolute;
+            top: 19px;
+            left: 1123px;
+        }
+    }
+
+    .tel1>a {
+        color: rgba(51, 51, 51, 0.70);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        top: 19px;
+        left: 1151px;
+    }
+
+    .tel2>.t {
+        color: rgba(51, 51, 51, 0.70);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        position: absolute;
+        top: 36px;
+        left: 1151px;
+    }
+
+
+    .chiziq1 {
+        width: 1px;
+        height: 50px;
+        background: rgba(51, 51, 51, 0.10);
+        position: absolute;
+        top: 11px;
+        left: 407px;
+    }
+
+    .chiziq2 {
+        width: 1110px;
+        height: 1px;
+        background: rgba(51, 51, 51, 0.10);
+        position: absolute;
+        top: 71.25px;
+        left: 165px;
+    }
+
+    main {
+        width: 1440px;
+        height: 77px;
+        position: relative;
+
+        .logo {
+            width: 119px;
+            color: #000;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            cursor: pointer;
+            line-height: normal;
+            position: absolute;
+            top: 84px;
+            left: 164px;
+        }
+
+        .texlar>ul {
+            color: #333;
+            font-family: Inter;
+            font-size: 16px;
+            display: flex;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            list-style: none;
+            position: absolute;
+            gap: 46px;
+            top: 84px;
+            left: 478px;
+            
+        }
+        li{
+            cursor: pointer;
+        }
+
+        .btn>button {
+            width: 179px;
+            height: 40px;
+            color: white;
+            border-radius: 5px;
+            border: #4762FF;
+            background: #4762FF;
+            cursor: pointer;
+            transition: .5s;
+            position: absolute;
+            top: 84px;
+            left: 1096px;
+
+            &:hover {
+                background-color: white;
+                color: #000;
+                border: 1px solid black;
+            }
+        }
+
+
+
+        .affor {
+            width: 540px;
+            color: #333;
+            font-feature-settings: 'liga' off;
+            font-family: Inter;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 76px;
+            position: absolute;
+            top: 226px;
+            left: 165px;
+
+        }
+
+        .main_tex1 {
+            width: 496px;
+            color: rgba(51, 51, 51, 0.80);
+            font-feature-settings: 'liga' off;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            position: absolute;
+            top: 374px;
+            left: 165px;
+        }
+
+        .main_btn>button {
+            display: flex;
+            padding: 11px 37px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background: #4762FF;
+            border: #4762FF;
+            color: white;
+            transition: .5s;
+            position: absolute;
+            top: 464px;
+            left: 165px;
+
+            &:hover {
+                color: #000;
+                background-color: white;
+                border-radius: 8px;
+                border: 1px solid black;
+                cursor: pointer;
+            }
+        }
+
+        .main_img {
+            width: 1176px;
+            height: 529px;
+            position: absolute;
+            top: 166px;
+            left: 644px;
+        }
+
+        .l_tex {
+            color: #333;
+            text-align: center;
+            font-feature-settings: 'liga' off;
+            font-family: Inter;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            position: absolute;
+            top: 650px;
+            left: 396px;
+
+        }
+
+        .l_tex2 {
+            width: 480px;
+            color: rgba(51, 51, 51, 0.80);
+            text-align: center;
+
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            position: absolute;
+            top: 728px;
+            left: 450px;
+        }
+
+        .bulim {
+            width: 505px;
+            height: 287px;
+            border-radius: 9px;
+            background: #F4F6FA;
+            position: absolute;
+            top: 846px;
+            left: 197px;
+
+            .bulim_tex {
+                width: 366px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 25px;
+                left: 28px;
+            }
+
+            .bulim_tex2 {
+                width: 253px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 98px;
+                left: 28px;
+
+            }
+
+            .bulim_img {
+                width: 340px;
+                height: 271px;
+                flex-shrink: 0;
+                mix-blend-mode: multiply;
+                position: absolute;
+                top: 25px;
+                left: 281px;
+            }
+        }
+
+        .bulim2 {
+            width: 505px;
+            height: 287px;
+            border-radius: 9px;
+            background: #F4F6FA;
+            position: absolute;
+            top: 846px;
+            left: 738px;
+
+            .bulim_tex2 {
+                width: 366px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 25px;
+                left: 28px;
+            }
+
+            .bulim_tex3 {
+                width: 253px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 98px;
+                left: 28px;
+
+            }
+
+            .bulim_img2 {
+                width: 340px;
+                height: 271px;
+                flex-shrink: 0;
+                mix-blend-mode: multiply;
+                position: absolute;
+                top: 72px;
+                left: 148px;
+            }
+        }
+
+
+
+        .bulim {
+            width: 505px;
+            height: 287px;
+            border-radius: 9px;
+            background: #F4F6FA;
+            position: absolute;
+            top: 846px;
+            left: 197px;
+
+            .bulim_tex {
+                width: 366px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 25px;
+                left: 28px;
+            }
+
+            .bulim_tex2 {
+                width: 253px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 98px;
+                left: 28px;
+
+            }
+
+            .bulim_img {
+                width: 340px;
+                height: 271px;
+                flex-shrink: 0;
+                mix-blend-mode: multiply;
+                position: absolute;
+                top: 25px;
+                left: 281px;
+            }
+        }
+
+        .bulim2 {
+            width: 505px;
+            height: 287px;
+            border-radius: 9px;
+            background: #F4F6FA;
+            position: absolute;
+            top: 846px;
+            left: 738px;
+
+            .bulim_tex2 {
+                width: 366px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 25px;
+                left: 28px;
+            }
+
+            .bulim_tex3 {
+                width: 253px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 98px;
+                left: 28px;
+
+            }
+
+            .bulim_img2 {
+                width: 340px;
+                height: 271px;
+                flex-shrink: 0;
+                mix-blend-mode: multiply;
+                position: absolute;
+                top: 72px;
+                left: 148px;
+            }
+        }
+
+
+
+        .bulim {
+            width: 505px;
+            height: 287px;
+            border-radius: 9px;
+            background: #F4F6FA;
+            position: absolute;
+            top: 846px;
+            left: 197px;
+
+            .bulim_tex {
+                width: 366px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 25px;
+                left: 28px;
+            }
+
+            .bulim_tex2 {
+                width: 253px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 98px;
+                left: 28px;
+
+            }
+
+            .bulim_img {
+                width: 340px;
+                height: 271px;
+                flex-shrink: 0;
+                mix-blend-mode: multiply;
+                position: absolute;
+                top: 25px;
+                left: 281px;
+            }
+        }
+
+        .bulim2 {
+            width: 505px;
+            height: 287px;
+            border-radius: 9px;
+            background: #F4F6FA;
+            position: absolute;
+            top: 846px;
+            left: 738px;
+
+            .bulim_tex2 {
+                width: 366px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 25px;
+                left: 28px;
+            }
+
+            .bulim_tex3 {
+                width: 253px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 98px;
+                left: 28px;
+
+            }
+
+            .bulim_img2 {
+                width: 340px;
+                height: 271px;
+                flex-shrink: 0;
+                mix-blend-mode: multiply;
+                position: absolute;
+                top: 72px;
+                left: 148px;
+            }
+        }
+
+
+
+        .bulimm {
+            width: 505px;
+            height: 287px;
+            border-radius: 9px;
+            background: #F4F6FA;
+            position: absolute;
+            top: 1170px;
+            left: 197px;
+
+            .bulim_texx {
+                width:229px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 25px;
+                left: 28px;
+            }
+
+            .bulim_tex22 {
+                width: 253px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 98px;
+                left: 28px;
+
+            }
+
+            .bulim_imgg {
+                width: 340px;
+                height: 271px;
+                flex-shrink: 0;
+                mix-blend-mode: multiply;
+                position: absolute;
+                top: 25px;
+                left: 194px;
+            }
+        }
+
+        .bulimc {
+            width: 505px;
+            height: 287px;
+            border-radius: 9px;
+            background: #F4F6FA;
+            position: absolute;
+            top: 1170px;
+            left: 738px;
+
+            .bulim_tex27 {
+                width: 306px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 25px;
+                left: 28px;
+            }
+
+            .bulim_tex7 {
+                width: 253px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 98px;
+                left: 28px;
+
+            }
+
+            .bulim_img8 {
+                width: 340px;
+                height: 271px;
+                flex-shrink: 0;
+                mix-blend-mode: multiply;
+                position: absolute;
+                top: 72px;
+                left: 286px;
+            }
+        }
+        section{
+            width: 1440px;
+            height: 554px;
+            top:1500px ;
+           
+            position: relative;
+            .se_tex1{
+                width: 540px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top:67px;
+                left: 165px;
+
+            }
+            .se_tex2{
+                width: 576px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 220px;
+                left: 165px;
+            }
+            .imbilema1{
+                width: 175.75px;
+                height: 101.99px;
+                position: absolute;
+                top: 71px;
+                left: 811px;
+            }
+            .imbilema2{
+                width: 129px;
+                height: 127px;
+                position: absolute;
+                top: 63px;
+                left: 1146px;
+            }
+            .imbilema3{
+                width: 131px;
+                height: 74px;
+                position: absolute;
+                top: 222px;
+                left: 1001px;
+            }
+            .imbilema4{
+                width: 176px;
+                height: 48px;
+                position: absolute;
+                top:384px ;
+                left:811px;
+            }
+            .imbilema5{
+                width: 141px;
+                height: 161px;
+                position: absolute;
+                top: 327px;
+                left: 1134px;
+            }
+
+            .me_div{
+                width: 1360px;
+                height: 550px;
+                position: relative;
+                background: #f4f4f4;
+                left: 150px;
+                top:500px ;
+              
+            }
+            .me_tex{
+                width: 506px;
+                color: #333;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 96px;
+                left: 165px;
+            }
+            .me_tex2{
+                width: 540px;
+                color: rgba(51, 51, 51, 0.80);
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: absolute;
+                top: 195px;
+                left: 165px;
+            }
+            .me_img{
+                width: 720px;
+                height: 549px;
+                position: absolute;
+                left: 726px;
+            }
+
+        }
+            .me2_tex{
+                width: 540px;
+                color: #333;
+                text-align: center;
+                font-feature-settings: 'liga' off;
+                font-family: Inter;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                position: absolute;
+                top: 1097px ;
+                left: 450px;
+            }
+            .img{
+                width: 1124px;
+                height: 1122px;
+                position: absolute;
+                top:1300px;
+                left: 265px;
+            }
+            .img1{
+                    position: absolute;
+                    top:26505 ;
+                    left: 486px;        
+                    cursor: pointer;
+            }
+            .futir{
+                width: 1708px;
+                height: 978px;
+                position: relative;
+                top:2850px ;
+                
+                .futir_img{
+               position: absolute;
+               left: 165px;
+                }
+                .futir_dev1{
+                    width: 611px;
+                    height: 548px;
+                    border-radius: 15px;
+                    background: #FFF;
+                    position: absolute;
+                    top:70px ;
+                    left:868px;
+                }
+                .futir_tex{
+                    width: 500px;
+                    color: #333;
+                    font-feature-settings: 'liga' off;
+                    font-family: Inter;
+                    font-size: 56px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    position: absolute;
+                    top:5px;
+                    left: 71px;
+                }
+                .futir_tex2{
+                    width: 467px;
+                    color: rgba(51, 51, 51, 0.80);
+                    font-feature-settings: 'liga' off;
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    position: absolute;
+                    top:191px;
+                    left: 71px;
+                }
+                .form>input{
+                    width: 469px;
+                    height: 56px;
+                    font-size: 16px;
+                    padding: 0px 40px;
+                    border-radius: 8px;
+                   
+                    background: rgba(71, 98, 255, 0.08);
+                    position: absolute;
+                    left: -30px;
+                    
+                    
+                }
+                h6>input{
+                    display: flex;
+                    width: 469px;
+                    padding: 22px 185px;
+                    align-items: flex-start;
+                    gap: 10px;
+                    color: white;
+                    font-size: 16px;
+                    border-radius: 8px;
+                    
+                    background: #4762FF;
+                    position: absolute;
+                    top: 242px;
+                    
+                }
+                .p>input{
+                    width: 569px;
+                    height: 56px;
+                    font-size: 16px;
+                    padding: 0px 40px;
+                    border-radius: 8px;
+                    background: rgba(71, 98, 255, 0.08);
+                    position: absolute;
+                    top: 50px;
+
+                }
+                
+
+            }
+
+
+
+
+
+    }
+}
